@@ -1,0 +1,50 @@
+@media screen and (max-width: 768px) {
+    .div1 {
+        flex-direction: column-reverse;
+        margin: 10px;
+        justify-content: center;
+    }
+    .content {
+        width: 90%; 
+        text-align: center; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: medium;
+    }
+
+    .images {
+        width: 10rem;
+        object-fit: cover;
+        border-radius: 5%;
+    }
+}
+
+#header{
+    font-size: xx-large;
+    font-family: 'MouseMemoir';
+    color: crimson;
+    text-align: center;
+}
+
+#cohorts{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: chocolate;
+    text-align: center;
+}
+
+.images{
+    width: 20rem;
+    object-fit: contain;
+    border-radius: 10%;
+}
+
+.div1{
+    display: flex; 
+    justify-content: space-around; 
+    margin: 15px;
+}
+
+.content{
+    width: 80%; 
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
