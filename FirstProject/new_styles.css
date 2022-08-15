@@ -4,6 +4,7 @@
         margin: 10px;
         justify-content: center;
     }
+    
     .content {
         width: 90%; 
         text-align: center; 
@@ -44,7 +45,7 @@
 }
 
 .content{
-    width: 80%; 
-    text-align: center;
+    width: 85%; 
+    text-align: right;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
