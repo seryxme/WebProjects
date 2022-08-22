@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 60%;
+  margin: 20px auto;
+}
+
+.main-image {
+  width: 100%;
+}
+
+.image-thumbnails {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.image-thumbnails > img {
+  width: 20%;
+  margin: 5px;
+}

@@ -74,3 +74,11 @@ const thirdUser = {
 };
 
 console.log(thirdUser.fullName());
+
+let arr = [2, 4, 5, 7, 8, 12];
+
+arr.forEach((item, index, array) => console.log(index, item, array));
+
+let val = arr.find(() => item >= 5);
+
+val = arr.filter(() => item >= 5);
