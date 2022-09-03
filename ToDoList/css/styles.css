@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #90e0ef;
+  --secondary-color: #0077b6;
+  --primary-font-size: 16px;
+}
+
+body {
+  font-size: var(--primary-font-size);
+  background-color: var(--secondary-color);
+}
+
+main.container {
+  width: 80%;
+  margin: 20px auto;
+  background-color: var(--primary-color);
+  height: calc(100vh - 40px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fa-trash {
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
