@@ -1,0 +1,18 @@
+{
+    "posts": [
+      { "id": 1, "title": "HTML", "author": "Mike", "content": "This is the content for this."},
+      { "id": 2, "title": "Offer", "author": "Jummy", "content": "This is the next content for this." },
+      { "id": 3, "title": "Thank you", "author": "Ashaks", "content": "This is the other content for this." }
+    ],
+    "comments": [
+      { "id": 1, "body": "new comment", "postId": 1 },
+      { "id": 2, "body": "some other comment", "postId": 2 },
+      { "id": 3, "body": "some comment", "postId": 1 },
+      { "id": 4, "body": "a single comment", "postId": 3 }
+    ],
+    "profile": [
+        { "name": "Mike" },
+        { "name": "Jummy" },
+        { "name": "Ashaks" }
+    ]
+}

@@ -1,16 +1,25 @@
 import React from "react";
 import CardDetail from "./CardDetail";
 import { faker } from "@faker-js/faker";
-import "./CardList.css";
+import classes from "./CardList.module.css";
 
 // function greet() {
 //   return "Hello from greet";
 // }
 
-const CardList = () => {
+const CardList = ({ data }) => {
   return (
-    <div className="card-list">
-      <CardDetail
+    <div className={classes.cardList}>
+      {data.map((d) => (
+        <CardDetail
+          key={d.id}
+          title={d.title}
+          description={d.description}
+          image={d.image}
+        />
+      ))}
+
+      {/* <CardDetail
         image={faker.image.city()}
         alt={faker.word.adjective()}
         title="The First Card"
@@ -24,7 +33,7 @@ const CardList = () => {
         description="This is the second card on this app. No new cards were created."
       />
       <br></br>
-      <CardDetail image={faker.image.avatar()} alt={faker.word.adjective()} />
+      <CardDetail image={faker.image.avatar()} alt={faker.word.adjective()} /> */}
     </div>
   );
 };

@@ -1,4 +1,4 @@
-.card-list {
+.cardList {
   display: flex;
   flex-flow: row wrap;
   gap: 20px;
