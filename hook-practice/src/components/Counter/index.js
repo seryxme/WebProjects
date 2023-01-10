@@ -27,7 +27,7 @@ const increment_by = (amount) => {
 const initialState = {
   count: 0,
 };
-const reducer = (action, state) => {
+const reducer = (state, action) => {
   switch (action.type) {
     case INCREMENT:
       return { ...state, count: state.count + 1 };

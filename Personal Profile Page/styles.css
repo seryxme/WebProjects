@@ -1,0 +1,163 @@
+@font-face {
+  font-family: MouseMemoir;
+  src: url(fonts/MouseMemoirs-Regular.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: MouseMemoir;
+  font-size: 1.5rem;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin: 20px;
+  background-color: gainsboro;
+}
+
+#title,
+h1 {
+  margin-bottom: 20px;
+}
+
+#img-div {
+  display: box;
+  background-color: #04aa6d;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#image {
+  height: auto;
+  max-width: 100%;
+  border: 2px solid purple;
+  border-radius: 50%;
+}
+
+#img-caption {
+  text-align: center;
+}
+
+.sub-head {
+  font-size: 1.5rem;
+}
+
+.content {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+.content,
+ul {
+  text-align: left;
+}
+
+#links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer-basic {
+  padding: 20px 0;
+  background-color: #333;
+  color: #4b4c4d;
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-basic li {
+  padding: 0 10px;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.footer-basic .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-basic .list-inline {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  color: #f2f2f2;
+  padding-bottom: 10px;
+}
+
+.footer-basic .copyright {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+
+.footer-basic .social .on-social-instagram {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1200px-Instagram-Icon.png);
+}
